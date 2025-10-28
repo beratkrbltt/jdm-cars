@@ -8,11 +8,12 @@ body {
 }
 
 @font-face {
-    font-family: 'Ethnocentric';
-    src: url('/fonts/Ethnocentric-Regular.otf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Ethnocentric';
+  src: url('./fonts/Ethnocentric-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
+
 
 .head-cardtext i,
 .head-cardtext button,
@@ -445,4 +446,5 @@ footer ul {
     .line hr {
         width: 100%;
     }
+
 }
